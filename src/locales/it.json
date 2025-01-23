@@ -1,0 +1,11 @@
+{
+  "Root": {
+    "defaultTitle": "Il mio sito",
+    "defaultDescription": "Descrizione sito web di default."
+  },
+  "NotFound": {
+    "title": "Pagina non trovata",
+    "description": "La pagina che stai cercando non esiste.",
+    "goToHome": "Vai alla home"
+  }
+}
