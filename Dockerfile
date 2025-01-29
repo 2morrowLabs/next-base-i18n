@@ -37,8 +37,7 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
 # Do not copy public assets folder, due to caching issues with CDNs like Cloudflare.
-# We instead put images under src/img and serve them with next/image, with the `unoptimized` config.
-# COPY --from=builder /app/public ./public
+COPY --from=builder /app/public ./public
 
 # Automatically leverage output traces to reduce image size
 # https://nextjs.org/docs/advanced-features/output-file-tracing

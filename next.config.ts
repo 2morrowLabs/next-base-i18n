@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
 
 		return [
 			{
-				source: "/:all*(css|js|gif|svg|jpg|jpeg|png|woff|woff2)",
+				source: "/:all*(css|js|ico|gif|svg|jpg|jpeg|png|woff|woff2|pdf)",
 				locale: false,
 				headers: [
 					{
