@@ -26,6 +26,7 @@ const config = [
 			"@typescript-eslint/ban-ts-comment": "off",
 			"@typescript-eslint/no-explicit-any": "off",
 			"@typescript-eslint/no-empty-object-type": "off",
+			"@typescript-eslint/consistent-type-definitions": ["error", "interface"],
 			"@next/next/no-img-element": "off",
 			"no-case-declarations": "off",
 			"no-restricted-imports": [
